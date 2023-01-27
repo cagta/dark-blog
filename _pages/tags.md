@@ -1,19 +1,19 @@
 ---
-title: "Tags"
-description: "All of my blog posts sorted by tag"
+title: "tags"
+description: "all of my blog posts sorted by tag"
 permalink: /blog/tags
 ---
 
 {% include search.html %}
 
-<h2 id="categories">Categories</h2>
+<h2 id="categories">categories</h2>
 <div class="tag-list">
-<a href="/blog">Essays ({{ site.categories.essays | size }})</a>
-<a href="/blog/now">Now ({{ site.categories.now | size }})</a>
-<a href="/notes">Recent notes</a>
+<a href="/blog">essays ({{ site.categories.essays | size }})</a>
+<a href="/blog/now">now ({{ site.categories.now | size }})</a>
+<a href="/notes">recent notes</a>
 </div>
 
-<h2 id="tags">Tags</h2>
+<h2 id="tags">tags</h2>
 
 {% assign sortedTags = site.tags | sort %}
 
@@ -25,14 +25,12 @@ permalink: /blog/tags
 
 {% for tag in sortedTags %}
 
-<section class="posts-by-tag">
-
 <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
 
 {% for post in tag[1] %}
 	{% include blog-listing.html %}
 {% endfor %}
 
-<p><a href="#" class="internal-link">All Tags &#8593;</a></p>
+<p><a href="#" class="internal-link">all tags &#8593;</a></p>
 
 {% endfor %}

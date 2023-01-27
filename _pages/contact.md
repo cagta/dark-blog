@@ -1,32 +1,13 @@
 ---
-title: Contact
-description: "Email is the best way to get in touch."
+title: contact
+description: "email is the best way to get in touch."
 permalink: /contact
 --- 
 
+<a href="https://www.linkedin.com/in/cagta/">linkedin</a> is the best way to get in touch.
 
+<a href="https://github.com/cagta">github</a> is my central git repository.
 
-Email’s the best way to get in touch: 
+<a href="goodreads.com/cagta">goodreads</a> is my go to place when it's come to books.
 
-**{{ site.email }}**
-
-<div class="tag-list copy-buttons">
-
-<button class="btn btn-default" onclick="copyEmailtoClipboard('{{site.email}}')">Copy address</button>
-
-<a href="mailto:{{site.email}}">Send email</a>
-</div>
-
-Add some social media or other ways to follow you.
-
-[RSS](/rss) is the best way to follow me.
-
-<script>
-
-// copy email to clipboard
-
-function copyEmailtoClipboard() {
-    navigator.clipboard.writeText((arguments[0]));
-}
-
-</script>
+[rss](/rss) is the best way to follow me.

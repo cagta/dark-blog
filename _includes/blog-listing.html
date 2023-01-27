@@ -41,7 +41,7 @@ The conditional makes the first now post link to /now instead of the post permal
 
 <p><a href="{{LinkToPost}}" title="{{post.title}}" class="blog-listing-link">{{ post.title }}</a>
 <br>
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
+<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B"| downcase }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
 
 
 

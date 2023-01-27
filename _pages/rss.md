@@ -1,6 +1,6 @@
 ---
-title: RSS
-description: "How the RSS feeds on this site work"
+title: rss
+description: "how the RSS feeds on this site work"
 og-type: website
 permalink: /rss
 ---

@@ -1,11 +1,11 @@
 ---
-title: Notes
+title: notes
 layout: page
 nav: custom
 custom-nav: 
-    - '<a href="/about" title="About">About</a>&nbsp;|&nbsp;'
-    - '<a href="/blog" title="blog">Blog</a>&nbsp;|&nbsp;'
-    - '<a href="/contact" title="Contact">Contact</a>'
+    - '<a href="/about" title="about">about</a>&nbsp;|&nbsp;'
+    - '<a href="/blog" title="blog">blog</a>&nbsp;|&nbsp;'
+    - '<a href="/contact" title="contact">contact</a>'
 permalink: /notes
 ---
 
@@ -24,7 +24,7 @@ This is a microblog for frequent, shorter thoughts, interesting links and shapin
 
 {{post.content}}
 
-<p class="note-date-line"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+<p class="note-date-line"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" | downcase}}</time></p>
 </section>
 
 

@@ -1,11 +1,11 @@
 ---
-title: Portfolio
-description: "Highlights of my work as writer in the tech industry."
+title: portfolio
+description: "highlights of my work as writer in the tech industry."
 nav: custom
 custom-nav: 
-    - '<a href="/about" title="About">About</a>&nbsp;|&nbsp;'
-    - '<a href="/blog" title="Blog">Blog</a>&nbsp;|&nbsp;'
-    - '<a href="/contact" title="Contact">Contact</a>'
+    - '<a href="/about" title="about">about</a>&nbsp;|&nbsp;'
+    - '<a href="/blog" title="blog">blog</a>&nbsp;|&nbsp;'
+    - '<a href="/contact" title="contact">contact</a>'
 permalink: /portfolio
 ---
 

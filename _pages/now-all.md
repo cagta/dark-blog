@@ -1,6 +1,6 @@
 ---
-title: All of my now updates
-description: "All of my now updates"
+title: all of my now updates
+description: "all of my now updates"
 og-type: website
 permalink: /blog/now
 ---

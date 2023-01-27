@@ -1,13 +1,13 @@
 ---
-title: Blog
-description: "All of the posts in Derek’s Digital Garden"
+title: blog
+description: "All of the posts of Cagatay"
 og-type: website
 permalink: /blog
 nav: custom
 custom-nav: 
-    - '<a href="/blog/tags" title="Tags">Tags</a>&nbsp;|&nbsp;'
-    - '<a style="cursor: pointer;" onclick="toggleSearchBar()" title="Search" >Search</a>&nbsp;|&nbsp;'
-    - '<a href="/blog/random" title="Random post">Random</a>'
+    - '<a href="/blog/tags" title="tags">tags</a>&nbsp;|&nbsp;'
+    - '<a style="cursor: pointer;" onclick="toggleSearchBar()" title="search" >search</a>&nbsp;|&nbsp;'
+    - '<a href="/blog/random" title="random post">random</a>'
 ---
 
 <div id="search-bar" style="display: none;">
